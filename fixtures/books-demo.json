@@ -1,0 +1,86 @@
+[
+{
+  "model": "books.book",
+  "pk": 1,
+  "fields": {
+    "published": "2020-09-01T09:41:48Z",
+    "available": "2020-09-01T09:41:51Z",
+    "language": 1,
+    "publisher": 2,
+    "title": "Linear Algebra and Learning from Data",
+    "abstract": "This is a textbook to help readers understand the steps that lead to deep learning. Linear algebra comes first, especially singular values, least squares, and matrix factorizations. Often the goal is a low rank approximation A = CR (column-row) to a large matrix of data to see its most important part. This uses the full array of applied linear algebra, including randomization for very large matrices..\\\\r\\\\nThen deep learning creates a large-scale optimization problem for the weights solved by gradient descent or better stochastic gradient descent. Finally, the book develops the architectures of fully connected neural nets and of Convolutional Neural Nets (CNNs) to find patterns in data.",
+    "isbn": "9780692196380",
+    "page_count": 432,
+    "publication_date": 2019,
+    "back_img": null,
+    "topics": [
+      1,
+      4
+    ],
+    "levels": [
+      1
+    ],
+    "authors": [
+      1
+    ]
+  }
+},
+{
+  "model": "books.book",
+  "pk": 2,
+  "fields": {
+    "published": "2020-09-01T09:44:49Z",
+    "available": "2020-09-01T09:44:53Z",
+    "language": 1,
+    "publisher": 1,
+    "title": "Deep Learning",
+    "abstract": "An introduction to a broad range of topics in deep learning, covering mathematical and conceptual background, deep learning techniques used in industry, and research perspectives. Written by three experts in the field, Deep Learning is the only comprehensive book on the subject. - Elon Musk, cochair of OpenAI; cofounder and CEO of Tesla and SpaceX.",
+    "isbn": "9780262337434",
+    "page_count": 800,
+    "publication_date": 2016,
+    "back_img": null,
+    "topics": [
+      1,
+      3,
+      4
+    ],
+    "levels": [
+      1,
+      2
+    ],
+    "authors": [
+      2,
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "books.book",
+  "pk": 3,
+  "fields": {
+    "published": "2020-09-01T09:46:17Z",
+    "available": "2020-09-01T09:46:19Z",
+    "language": 1,
+    "publisher": 3,
+    "title": "Convex Optimization & Euclidean Distance Geometry",
+    "abstract": "Optimization is the science of making a best choice in the face of conflicting requirements. Any convex optimization problem has geometric interpretation. If a given optimization problem can be transformed to a convex equivalent, then this interpretive benefit is acquired. That is a powerful attraction: the ability to visualize geometry of an optimization problem. Conversely, recent advances in geometry hold convex optimization within their proofs' core. This book is about convex optimization, convex geometry (with particular attention to distance geometry), geometrical problems, and problems that can be transformed into geometrical problems. Euclidean distance geometry is, fundamentally, a determination of point conformation from interpoint distance information; e.g., given only distance information, determine whether there corresponds a realizable configuration of points; a list of points in some dimension that attains the given interpoint distances.",
+    "isbn": "9781847280640",
+    "page_count": 708,
+    "publication_date": 2016,
+    "back_img": null,
+    "topics": [
+      2,
+      10
+    ],
+    "levels": [
+      1,
+      2,
+      3
+    ],
+    "authors": [
+      5
+    ]
+  }
+}
+]

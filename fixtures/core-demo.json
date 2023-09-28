@@ -1,0 +1,249 @@
+[
+{
+  "model": "tess_core.level",
+  "pk": 1,
+  "fields": {
+    "name": "BSc."
+  }
+},
+{
+  "model": "tess_core.level",
+  "pk": 2,
+  "fields": {
+    "name": "MSc."
+  }
+},
+{
+  "model": "tess_core.level",
+  "pk": 3,
+  "fields": {
+    "name": "PhD."
+  }
+},
+{
+  "model": "tess_core.category",
+  "pk": 1,
+  "fields": {
+    "name": "Math & Stats",
+    "description": "Mathematics takes us into the region of absolute necessity, to which not only the actual word, but every possible word, must conform - Bertrand Russell"
+  }
+},
+{
+  "model": "tess_core.category",
+  "pk": 2,
+  "fields": {
+    "name": "Machine Learning & AI",
+    "description": "We now think of internal representation as great big vectors, and we do not think of logic as the paradigm for how to get things to work. We just think you can have these great big neural nets that learn, and so, instead of programming, you are just going to get them to learn everything. - Jeoffrey Hinton."
+  }
+},
+{
+  "model": "tess_core.category",
+  "pk": 3,
+  "fields": {
+    "name": "Computer Science",
+    "description": "Bad programmers worry about the code. Good programmers worry about data structures and their relationships - Linus Torvalds."
+  }
+},
+{
+  "model": "tess_core.topic",
+  "pk": 1,
+  "fields": {
+    "name": "Linear Algebra",
+    "category": 1
+  }
+},
+{
+  "model": "tess_core.topic",
+  "pk": 2,
+  "fields": {
+    "name": "Geometry",
+    "category": 1
+  }
+},
+{
+  "model": "tess_core.topic",
+  "pk": 3,
+  "fields": {
+    "name": "Statistics",
+    "category": 1
+  }
+},
+{
+  "model": "tess_core.topic",
+  "pk": 4,
+  "fields": {
+    "name": "Deep Learning",
+    "category": 2
+  }
+},
+{
+  "model": "tess_core.topic",
+  "pk": 5,
+  "fields": {
+    "name": "Reinforcement Learning",
+    "category": 2
+  }
+},
+{
+  "model": "tess_core.topic",
+  "pk": 6,
+  "fields": {
+    "name": "NLP",
+    "category": 2
+  }
+},
+{
+  "model": "tess_core.topic",
+  "pk": 7,
+  "fields": {
+    "name": "Python",
+    "category": 3
+  }
+},
+{
+  "model": "tess_core.topic",
+  "pk": 8,
+  "fields": {
+    "name": "React",
+    "category": 3
+  }
+},
+{
+  "model": "tess_core.topic",
+  "pk": 9,
+  "fields": {
+    "name": "Algorithms",
+    "category": 3
+  }
+},
+{
+  "model": "tess_core.topic",
+  "pk": 10,
+  "fields": {
+    "name": "Optimization",
+    "category": 1
+  }
+},
+{
+  "model": "tess_core.language",
+  "pk": 1,
+  "fields": {
+    "name": "English",
+    "code": "en"
+  }
+},
+{
+  "model": "tess_core.language",
+  "pk": 2,
+  "fields": {
+    "name": "French",
+    "code": "fr"
+  }
+},
+{
+  "model": "tess_core.author",
+  "pk": 1,
+  "fields": {
+    "first_name": "Gilbert",
+    "last_name": "Strang",
+    "user": null
+  }
+},
+{
+  "model": "tess_core.author",
+  "pk": 2,
+  "fields": {
+    "first_name": "Joshua",
+    "last_name": "Bengio",
+    "user": null
+  }
+},
+{
+  "model": "tess_core.author",
+  "pk": 3,
+  "fields": {
+    "first_name": "Ian",
+    "last_name": "Goodfellow",
+    "user": null
+  }
+},
+{
+  "model": "tess_core.author",
+  "pk": 4,
+  "fields": {
+    "first_name": "Aaron",
+    "last_name": "Courville",
+    "user": null
+  }
+},
+{
+  "model": "tess_core.author",
+  "pk": 5,
+  "fields": {
+    "first_name": "John",
+    "last_name": "Dattoro",
+    "user": null
+  }
+},
+{
+  "model": "tess_core.publisher",
+  "pk": 1,
+  "fields": {
+    "name": "MIT Press"
+  }
+},
+{
+  "model": "tess_core.publisher",
+  "pk": 2,
+  "fields": {
+    "name": "Wellesley-Cambridge Press"
+  }
+},
+{
+  "model": "tess_core.publisher",
+  "pk": 3,
+  "fields": {
+    "name": "Lulu.com"
+  }
+},
+{
+  "model": "tess_core.plan",
+  "pk": 1,
+  "fields": {
+    "slug": "free",
+    "name": "Free",
+    "description": "Free plan subscribed to at signup by default.",
+    "is_active": true,
+    "is_not_priced": true,
+    "created_at": "2020-09-01T09:07:18.565Z",
+    "ended": null,
+    "extra": "",
+    "period_price_currency": "USD",
+    "period_price": "0.00",
+    "period_type": 5,
+    "period_length": 1,
+    "length": null,
+    "renewal_type": 1
+  }
+},
+{
+  "model": "tess_core.userprofile",
+  "pk": 1,
+  "fields": {
+    "default_timezone": "UTC",
+    "billing_start": "2020-09-01",
+    "funds_balance_currency": "USD",
+    "funds_balance": "0.00",
+    "is_provider": false,
+    "user": [
+      "+224624089608"
+    ],
+    "birth_date": null,
+    "city": null,
+    "bio": "",
+    "topics": [],
+    "levels": [],
+    "peers": []
+  }
+}
+]
